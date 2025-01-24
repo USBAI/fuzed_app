@@ -95,7 +95,7 @@ If you want to try it out on your local machine, here's what you need to do:
 ---
 
 ## What's Next
-Once my MacBook arrives, I'm planning to:
+Once my MacBook arrives by today, I'm planning to:
 - Move the code over to macOS.
 - Debug everything and make sure it runs smoothly on iOS.
 - Fine-tune the app so it works great on both iOS and Android.
