@@ -34,12 +34,19 @@ I designed this architecture to ensure both accuracy and privacy, as data is onl
 ---
 
 ## App Preview
-Check out some screenshots from the app:
+Some screenshots from the app:
 
 ![Home page](./assets/iphone-spin-freeze-tme.png)
 ![Challange Select](./assets/iphone-15-still%20(1).png)
 ![Camera Show Up](./assets/iphone-15-still.png)
-![Allow Cammera Access](./assets/iphone-coin-spin.png)
+
+## ⚠️ Camera limitations
+
+When developing on Windows with Expo, I encountered some limitations - specifically, Windows doesn't support iOS emulation, which led to restrictions in accessing and processing camera frames from iOS devices. iOS has stricter security measures around continuous camera frame access compared to Android.
+
+This is one of the key reasons I'm transitioning development to macOS. Having a Mac will give me access to both iOS and Android emulators, allowing me to properly implement and test the camera functionality across both platforms. Android emulators tend to be less restrictive with camera permissions and frame processing.
+
+![Allow Camera Access](./assets/iphone-coin-spin.png)
 
 ---
 
