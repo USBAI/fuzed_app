@@ -11,6 +11,9 @@ As my MacBook arrives today, This will allow me to transfer the development envi
 ![Web Application](./assets/macbook-smooth-lid-drop.png)
 Here's a [YouTube video](https://youtu.be/YobP0VaoBE0?si=mjDVPXSZxf_thlnL) where you can see me testing the web app.
 
+
+Here's the [Web App Repo](https://github.com/USBAI/fuzed_webapplication) connected to the backend server
+
 ---
 
 ## How the Model Works
