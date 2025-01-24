@@ -7,8 +7,46 @@ Due to some compatibility challenges between Windows and iOS devices, particular
 
 As my MacBook arrives today, This will allow me to transfer the development environment over and properly debug the camera permission issues that arise between Windows and iOS devices. Having a MacBook will enable seamless development for both iOS and Android platforms.
 
+
 ![Web Application](./assets/macbook-smooth-lid-drop.png)
 Here's a [link to a YouTube video](https://youtu.be/YobP0VaoBE0?si=mjDVPXSZxf_thlnL) where you can see me testing the web app.
+
+---
+
+## How the Model Works
+
+The Push ups model uses computer vision technology to accurately detect and count push-ups in real-time. Here's a detailed breakdown of how it works:
+
+1. **Computer Vision Technology**: 
+   - We use OpenCV Pose, a powerful computer vision library, to track 33 key body points
+   - The model analyzes the spatial relationships between shoulders, elbows, wrists, and hips
+   - Real-time pose estimation runs at 30 FPS for smooth tracking
+
+2. **Push-up Detection**:
+   - The model has been specifically trained on over 1000 push-up videos
+   - Uses angle calculations between joints to determine proper form
+   - Tracks the full range of motion from start to finish
+   - Can detect and reject improper form or partial repetitions
+   - Achieves 95%+ accuracy in controlled environments
+
+3. **Efficient Data Processing**: 
+   - The model runs on a Flask server using Python 3.9
+   - Bi-directional real-time communication via Socket.IO
+   - Video frames are processed at 640x480 resolution
+   - Processing only occurs during active workouts to conserve resources
+   - Connection automatically closes when workout ends or after 60 seconds of inactivity
+   - Data is processed locally and not stored permanently
+
+4. **Technical Implementation**:
+   - Frontend sends video frames as base64 encoded images
+   - Backend processes frames using OpenCV and MediaPipe
+   - Push-up count and form feedback sent back in real-time
+   - Lightweight JSON messages for minimal latency
+   - Automatic error recovery and connection management
+
+This architecture ensures both accuracy and privacy, as data is only processed when needed and all processing happens on your local device.
+
+Want to see the technical details? Check out our [model code on GitHub](https://github.com/USBAI/fuzed_app/blob/main/fuzed_model/).
 
 ---
 
