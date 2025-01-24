@@ -17,9 +17,9 @@ Here’s a [link to a YouTube video](https://youtube.com/link-placeholder) where
 ## App Preview
 Check out some screenshots from the app:
 
-![iPhone 15 Still 1](./assets/iphone-15-still-1.png)
+![iPhone 15 Still 1](./assets/iphone-15-still%20(1).png)
 ![iPhone 15 Still](./assets/iphone-15-still.png)
-![iPhone Spin Freeze Time](./assets/iphone-spin-freeze-time.png)
+![iPhone Spin Freeze Time](./assets/iphone-spin-freeze-tme.png)
 
 ---
 
