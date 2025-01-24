@@ -87,7 +87,7 @@ If you want to try it out on your local machine, here's what you need to do:
 
 6. Start the development server:
    ```bash
-   npm start
+   npx expo start
    ```
 
 7. Use the Expo Go app on your phone to scan the QR code and run the app, or use an emulator (iOS or Android) as guided by Expo CLI.
