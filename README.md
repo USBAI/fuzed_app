@@ -15,21 +15,21 @@ Here's a [link to a YouTube video](https://youtu.be/YobP0VaoBE0?si=mjDVPXSZxf_th
 
 ## How the Model Works
 
-Our fitness tracking model uses advanced computer vision technology to accurately detect and count push-ups in real-time. Here's a simple breakdown of how it works:
+I built a fitness tracking model using advanced computer vision technology to accurately detect and count push-ups in real-time. Here's a simple breakdown of how it works:
 
-1. **Computer Vision Technology**: We use OpenCV Pose, a powerful computer vision library, to track body movements.
+1. **Computer Vision Technology**: I use OpenCV Pose, a powerful computer vision library, to track body movements.
 
-2. **Push-up Detection**: The model has been specifically trained to recognize the up and down motions of push-ups with high accuracy.
+2. **Push-up Detection**: I specifically trained the model to recognize the up and down motions of push-ups with high accuracy.
 
 3. **Efficient Data Processing**: 
-   - The model runs on a Flask server
+   - I run the model on a Flask server
    - Communication happens through Socket.IO
    - Processing only occurs during active workouts
    - Connection automatically closes when the workout ends
 
-This architecture ensures both accuracy and privacy, as data is only processed when needed.
+I designed this architecture to ensure both accuracy and privacy, as data is only processed when needed.
 
-Want to see the technical details? Check out our [model code on GitHub](https://github.com/USBAI/fuzed_app/blob/main/fuzed_model/).
+Want to see the technical details? Check out my [model code on GitHub](https://github.com/USBAI/fuzed_app/blob/main/fuzed_model/).
 
 ---
 
