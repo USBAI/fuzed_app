@@ -20,6 +20,7 @@ Check out some screenshots from the app:
 ![iPhone Spin Freeze Time](./assets/iphone-spin-freeze-tme.png)
 ![iPhone 15 Still 1](./assets/iphone-15-still%20(1).png)
 ![iPhone 15 Still](./assets/iphone-15-still.png)
+![iPhone 15 Still](./assets/iphone-coin-spin.png)
 
 ---
 
