@@ -29,7 +29,7 @@ I built a fitness tracking model using advanced computer vision technology to ac
 
 I designed this architecture to ensure both accuracy and privacy, as data is only processed when needed.
 
-Want to see the technical details? Check out my [model code on GitHub](https://github.com/USBAI/fuzed_app/blob/main/fuzed_model/).
+[push ups model](https://github.com/USBAI/fuzed_app/blob/main/fuzed_model/).
 
 ---
 
