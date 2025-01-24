@@ -1,6 +1,6 @@
 # Fuzed
 
-## About Fuzed
+## Quick Information
 Hey there! Fuzed is an app I built using the Expo framework. While I focused mainly on developing and fine-tuning the app's model rather than the UI design, it's designed to provide an interactive fitness experience using computer vision.
 
 Due to some compatibility challenges between Windows and iOS devices, particularly around camera permissions, I created a web application using ReactJS that connects to the same backend server. This web version helps demonstrate how the model works while I address the mobile platform specifics.
