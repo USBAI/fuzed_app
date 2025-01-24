@@ -1,17 +1,14 @@
 # Fuzed
 
 ## About Fuzed
-Hey there! So, Fuzed is something I put together using the Expo framework. I’ll be honest, I didn’t focus much on the UI design because most of my energy went into developing and fine-tuning the app’s model. Here are a few things about the project:
+Hey there! Fuzed is an app I built using the Expo framework. While I focused mainly on developing and fine-tuning the app's model rather than the UI design, it's designed to provide an interactive fitness experience using computer vision.
 
-- I worked on this using a Windows machine.
-- The app needs camera permissions to work properly.
-- Since Apple has restrictions on iOS emulators, I couldn’t fully test the iOS version yet.
-- I’ve ordered a MacBook so I can transfer the code over and debug it for iOS compatibility.
-- In the meantime, I built a web application with ReactJS, using the same backend server, to show how the model works.
-- I tested the app on a friend’s MacBook, and it worked great! That’s why I decided to make the switch to a MacBook—it’ll let me develop for both iOS and Android easily.
+Due to some compatibility challenges between Windows and iOS devices, particularly around camera permissions, I created a web application using ReactJS that connects to the same backend server. This web version helps demonstrate how the model works while I address the mobile platform specifics.
+
+I'm excited to share that my MacBook arrives today! This will allow me to transfer the development environment over and properly debug the camera permission issues that arise between Windows and iOS devices. Having a MacBook will enable seamless development for both iOS and Android platforms.
 
 ![Web Application](./assets/macbook-smooth-lid-drop.png)
-Here’s a [link to a YouTube video](https://youtu.be/YobP0VaoBE0?si=mjDVPXSZxf_thlnL) where you can see how the web app works.
+Here's a [link to a YouTube video](https://youtu.be/YobP0VaoBE0?si=mjDVPXSZxf_thlnL) where you can see how the web app works.
 
 ---
 
@@ -26,7 +23,7 @@ Check out some screenshots from the app:
 ---
 
 ## How to Run the App Locally
-If you want to try it out on your local machine, here’s what you need to do:
+If you want to try it out on your local machine, here's what you need to do:
 
 1. Clone the repository:
    ```bash
@@ -38,7 +35,7 @@ If you want to try it out on your local machine, here’s what you need to do:
    cd fuzed_app
    ```
 
-3. Make sure you have Expo CLI installed globally. If you don’t, you can install it by running:
+3. Make sure you have Expo CLI installed globally. If you don't, you can install it by running:
    ```bash
    npm install -g expo-cli
    ```
@@ -69,8 +66,8 @@ If you want to try it out on your local machine, here’s what you need to do:
 
 ---
 
-## What’s Next
-Once my MacBook arrives, I’m planning to:
+## What's Next
+Once my MacBook arrives, I'm planning to:
 - Move the code over to macOS.
 - Debug everything and make sure it runs smoothly on iOS.
 - Fine-tune the app so it works great on both iOS and Android.
