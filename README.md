@@ -28,12 +28,12 @@ If you want to try it out on your local machine, here’s what you need to do:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:USBAI/fuzed_app.git
    ```
 
 2. Go into the project folder:
    ```bash
-   cd <repository-folder>
+   cd fuzed_app
    ```
 
 3. Make sure you have Expo CLI installed globally. If you don’t, you can install it by running:
