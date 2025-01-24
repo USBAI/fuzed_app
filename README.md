@@ -10,7 +10,7 @@ Hey there! So, Fuzed is something I put together using the Expo framework. I’l
 - In the meantime, I built a web application with ReactJS, using the same backend server, to show how the model works.
 - I tested the app on a friend’s MacBook, and it worked great! That’s why I decided to make the switch to a MacBook—it’ll let me develop for both iOS and Android easily.
 
-![iPhone 15 Still](./assets/macbook-smooth-lid-drop.png)
+![Web Application](./assets/macbook-smooth-lid-drop.png)
 Here’s a [link to a YouTube video](https://youtu.be/YobP0VaoBE0?si=mjDVPXSZxf_thlnL) where you can see how the web app works.
 
 ---
@@ -18,10 +18,10 @@ Here’s a [link to a YouTube video](https://youtu.be/YobP0VaoBE0?si=mjDVPXSZxf_
 ## App Preview
 Check out some screenshots from the app:
 
-![iPhone Spin Freeze Time](./assets/iphone-spin-freeze-tme.png)
-![iPhone 15 Still 1](./assets/iphone-15-still%20(1).png)
-![iPhone 15 Still](./assets/iphone-15-still.png)
-![iPhone 15 Still](./assets/iphone-coin-spin.png)
+![Home page](./assets/iphone-spin-freeze-tme.png)
+![Challange Select](./assets/iphone-15-still%20(1).png)
+![Camera Show Up](./assets/iphone-15-still.png)
+![Allow Cammera Access](./assets/iphone-coin-spin.png)
 
 ---
 
