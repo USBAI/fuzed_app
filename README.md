@@ -10,7 +10,7 @@ Hey there! So, Fuzed is something I put together using the Expo framework. I’l
 - In the meantime, I built a web application with ReactJS, using the same backend server, to show how the model works.
 - I tested the app on a friend’s MacBook, and it worked great! That’s why I decided to make the switch to a MacBook—it’ll let me develop for both iOS and Android easily.
 
-Here’s a [link to a YouTube video](https://youtube.com/link-placeholder) where you can see how the web app works.
+Here’s a [link to a YouTube video](https://youtu.be/YobP0VaoBE0?si=mjDVPXSZxf_thlnL) where you can see how the web app works.
 
 ---
 
