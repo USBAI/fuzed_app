@@ -8,7 +8,7 @@ Due to some compatibility challenges between Windows and iOS devices, particular
 As my MacBook arrives today, This will allow me to transfer the development environment over and properly debug the camera permission issues that arise between Windows and iOS devices. Having a MacBook will enable seamless development for both iOS and Android platforms.
 
 ![Web Application](./assets/macbook-smooth-lid-drop.png)
-Here's a [link to a YouTube video](https://youtu.be/YobP0VaoBE0?si=mjDVPXSZxf_thlnL) where you can see how the web app works.
+Here's a [link to a YouTube video](https://youtu.be/YobP0VaoBE0?si=mjDVPXSZxf_thlnL) where you can see me testing the web app.
 
 ---
 
